@@ -15,7 +15,7 @@ export const PostItem = ({
     body.length > 145
       ? body.substr(3, 145) + "..."
       : body.substr(3, body.length - 7);
-  const postTitle = title.length > 30 ? title.substr(3, 30) + "..." : title;
+  const postTitle = title.length > 30 ? title.substr(0, 30) + "..." : title;
 
   console.log(thumbnail);
   return (

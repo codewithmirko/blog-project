@@ -33,7 +33,7 @@ export const SignUp = () => {
       if (!newUser) {
         setError("Could not register user. Please try again");
       }
-      navigate("/");
+      navigate("/login");
     } catch (err) {
       setError(err.response.data.message);
     }
