@@ -475,6 +475,18 @@ color: var(--color-primary);
 
 /* ========== DASHBOARD ============= */ 
 
+.dashboard {
+    min-height: calc(100vh - 25rem);
+}
+
+.authors {
+    min-height: calc(100vh - 25rem);
+}
+
+.posts {
+    min-height: calc(100vh - 25rem);
+}
+
 .dashboard__container {
     display: flex;
     flex-direction: column;
